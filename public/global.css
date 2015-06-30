@@ -14,14 +14,36 @@ body {
 header {
   background-color: #2C4947;
   width: 370px;
+  height: 60px;
 }
 
 div {
   margin: 0;
 }
 
+p {
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+  font-size: 20px;
+  color: #394B63;
+  margin: 30px;
+  margin-top: 2.5em;
+  line-height: 150%;
+}
+
+h1 {
+  font-family: "Courier New", Courier, monospace;
+  color: #394B63;
+  margin: 30px;
+}
+
 #title {
   background-color: #2C4947
+}
+
+#barcamp {
+  position: relative;
+  top: 10px;
 }
 
 #main {
