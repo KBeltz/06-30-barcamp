@@ -37,6 +37,24 @@ h1 {
   margin: 30px;
 }
 
+ul {
+  color: #6B5257;
+  text-align: center;
+  list-style-type: none;
+  padding: 0;
+  line-height: 200%;
+  font-family: Verdana, "Geneva", sans-serif;
+  font-size: 14px;
+  margin-bottom: 10em;
+}
+
+hr {
+  width: 90%;
+  height: 1px;
+  color: #ddd;
+  opacity: 0.5;
+}
+
 #title {
   background-color: #2C4947
 }
@@ -63,4 +81,28 @@ h1 {
 
 #register {
   margin-top: 5em;
+}
+
+#dash {
+  margin-top: 5em;
+  margin-bottom: 5em;
+  background-image: url("https://raw.githubusercontent.com/omahacodeschool/class-drakon/master/06-30-css-barcamp/assets/part2/dash-horizontal.png?token=ALYbvfGZgSc5s8fm6EtNaB7cfRhOiAYKks5VnALrwA%3D%3D");
+  background-repeat: repeat-x;
+}
+
+#intro {
+  margin: 15px;
+  text-align: center;
+}
+
+#category {
+  position: relative;
+  left: 95px;
+}
+
+#category_title {
+  text-align: center;
+  margin-top: 60px;
+  margin-bottom: 20px;
+  color: #709B4C;
 }
