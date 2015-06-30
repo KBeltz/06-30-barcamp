@@ -1,0 +1,44 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #2C4947;
+  width: 370px;
+}
+
+div {
+  margin: 0;
+}
+
+#title {
+  background-color: #2C4947
+}
+
+#main {
+  width: 370px;
+  height: 484px;
+}
+
+#aiga {
+  position: relative;
+  left: 40px;
+}
+
+#footer {
+  background-color: #536563;
+  width: 370px;
+}
+
+#register {
+  margin-top: 5em;
+}
