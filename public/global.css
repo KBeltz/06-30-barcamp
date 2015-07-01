@@ -37,6 +37,13 @@ h1 {
   margin: 30px;
 }
 
+h2 {
+  color: #fff;
+  text-align: center;
+  font-weight: normal;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
 ul {
   color: #6B5257;
   text-align: center;
@@ -55,54 +62,123 @@ hr {
   opacity: 0.5;
 }
 
-#title {
+.part3 {
+  background-image: url("https://raw.githubusercontent.com/omahacodeschool/class-drakon/master/06-30-css-barcamp/assets/part3/wood-bg.png?token=ALYbvaPXq-v5_iViMhm_r_qSznfbhUeXks5VnBDcwA%3D%3D");
+  background-repeat: repeat-y;
+  z-index: -1;
+  position:relative;
+}
+
+.title {
   background-color: #2C4947
 }
 
-#barcamp {
+.barcamp {
   position: relative;
   top: 10px;
 }
 
-#main {
+.main {
   width: 370px;
   height: 484px;
 }
 
-#aiga {
+.aiga {
   position: relative;
   left: 40px;
 }
 
-#footer {
+.footer {
   background-color: #536563;
   width: 370px;
 }
 
-#register {
+.register {
   margin-top: 5em;
 }
 
-#dash {
+.dash {
   margin-top: 5em;
   margin-bottom: 5em;
   background-image: url("https://raw.githubusercontent.com/omahacodeschool/class-drakon/master/06-30-css-barcamp/assets/part2/dash-horizontal.png?token=ALYbvfGZgSc5s8fm6EtNaB7cfRhOiAYKks5VnALrwA%3D%3D");
   background-repeat: repeat-x;
 }
 
-#intro {
+.intro {
   margin: 15px;
   text-align: center;
 }
 
-#category {
+.category {
   position: relative;
   left: 95px;
 }
 
-#category_title {
+.category_title {
   text-align: center;
   margin-top: 60px;
   margin-bottom: 20px;
   color: #709B4C;
+}
+
+.event_schedule {
+  margin: 70px 20px 70px 20px;
+  width: 320px;
+}
+
+.date {
+  color: #ECBF41;
+  font-size: 40px;
+  text-align: center;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.location {
+  color: #fff;
+  font-size: 16px;
+  font-family: "Times New Roman", Times, serif;
+  text-align: center;
+  margin: 0px 15px 15px 15px;
+}
+
+.time {
+  color: #fff;
+  font-size: 45px;
+  font-family: "Times New Roman", Times, serif;
+  text-align: center;
+  position: relative;
+  left: 30%;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  border: medium solid #D1592D;
+  margin-bottom: 0;
+}
+
+.pm {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 14px;
+  text-align: center;
+  position: relative;
+  bottom: 25px;
+  right: 5px;
+  color: #fff;
+  margin: 0;
+}
+
+.fire {
+  width: 320px;
+  position: relative;
+  left: 7%;
+  margin: 60px 0px 60px 0px;
+}
+
+.schedule {
+  color: #fff;
+  text-align: center;
+  font-weight: lighter;
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 0px;
 }
