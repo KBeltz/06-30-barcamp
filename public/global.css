@@ -63,7 +63,7 @@ hr {
 }
 
 .part3 {
-  background-image: url("https://raw.githubusercontent.com/omahacodeschool/class-drakon/master/06-30-css-barcamp/assets/part3/wood-bg.png?token=ALYbvaPXq-v5_iViMhm_r_qSznfbhUeXks5VnBDcwA%3D%3D");
+  background-image: url("../assets/part3/wood-bg.png");
   background-repeat: repeat-y;
   z-index: -1;
   position:relative;
@@ -100,7 +100,7 @@ hr {
 .dash {
   margin-top: 5em;
   margin-bottom: 5em;
-  background-image: url("https://raw.githubusercontent.com/omahacodeschool/class-drakon/master/06-30-css-barcamp/assets/part2/dash-horizontal.png?token=ALYbvfGZgSc5s8fm6EtNaB7cfRhOiAYKks5VnALrwA%3D%3D");
+  background-image: url("../assets/part2/dash-horizontal.png");
   background-repeat: repeat-x;
 }
 
